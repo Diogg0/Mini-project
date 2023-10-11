@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
-import AuthModal from '@/components/Modals/AuthModal';
-import Description from '@/components/Modals/Description';
+import AuthModal from '@/components/Modals/AuthModals/AuthModal';
+import Description from '@/components/Modals/AuthModals/Description';
 
 type AuthPageProps = {};
 

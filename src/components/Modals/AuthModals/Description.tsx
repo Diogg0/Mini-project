@@ -10,14 +10,14 @@ const Description:React.FC<DescriptionProps> = () => {
         <div
             className='absolute top-0 left-0 w-600 h-full flex items-center justify-center ml-auto'
         ></div>
-        <div className='w-500 sm:w-[1074px]  absolute top-[24.5%] translate-x-[-2%] translate-y-[-50%]
+        <div className='w-500 sm:w-[1068px]  absolute top-[24.9%] translate-x-[-2%] translate-y-[-50%]
          flex justify-center items-center ml-auto'>
             <div className='relative w-full h-full mx-auto flex items-center justify-center'>
-                <div className='rounded-l-lg shadow relative w-full bg-dull-pink mx-6'>
+                <div className='rounded-b-lg shadow relative w-full bg-dull-pink mx-6'>
                     <div className='flex justify-end p-2'>
                         <button
                             type='button'
-                            className='bg-transparent  rounded-l-lg text-sm p-1.5 ml-auto inline-flex items-center hover:bg-gray-800 hover:text-white text-white'
+                            className='bg-transparent  rounded-b-lg text-sm p-1.5 ml-auto inline-flex items-center hover:bg-gray-800 hover:text-white text-white'
                         >
                         </button>
                     </div>

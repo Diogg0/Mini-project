@@ -30,7 +30,8 @@ module.exports = {
 				"dark-blue-s": "rgb(10 132 255)",
 				"hot-pink": "rgb(252,200,200)",
 				"pink": "rgb(244,135,135)",
-				"dull-pink": "rgb(242,224,224)"
+				"dull-pink": "rgb(242,224,224)",
+				"chill-gray": "rgb(193,189,189)"
 			},
 		},
 	},
