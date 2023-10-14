@@ -5,6 +5,7 @@ import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { auth } from '@/firebase/firebase';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
+import { useEffect} from 'react';
 
 type loginProps = {
     
@@ -43,7 +44,10 @@ const login:React.FC<loginProps> = () => {
             alert(error.message);
         }
       };
-      console.log(user, "user");
+
+      useEffect(() => {
+        if(error) alert(error.message);
+      },[error])
 
     return <form className="space-y-6 px-6 px-4" onSubmit={handleLogin}>
         <h1 className= "text-xl text-dark-pink"><b>Sign in</b></h1>
