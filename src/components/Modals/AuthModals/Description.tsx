@@ -10,7 +10,7 @@ const Description:React.FC<DescriptionProps> = () => {
         <div
             className='absolute top-0 left-0 w-600 h-full flex items-center justify-center ml-auto'
         ></div>
-        <div className='w-500 sm:w-[1068px]  absolute top-[24.9%] translate-x-[-2%] translate-y-[-50%]
+        <div className='w-500 sm:w-[1068px]  absolute top-[24.9%] translate-x-[-2%] translate-y-[-51%]
          flex justify-center items-center ml-auto'>
             <div className='relative w-full h-full mx-auto flex items-center justify-center'>
                 <div className='rounded-b-lg shadow relative w-full bg-dull-pink mx-6'>

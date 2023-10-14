@@ -17,7 +17,7 @@ const login:React.FC<loginProps> = () => {
     const handleClick = () => {
         setAuthModalState((prev) => ({ ...prev, type:"register"}));
     };
-
++
     const [inputs, setInputs] = useState({email: "", password:""});
 
     const [
